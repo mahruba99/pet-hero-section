@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 100%;
+    height: 90px;
+    background-color: #feca57;
+}
+nav .logo {
+    font-size: 59px;
+    margin-left: 55px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.icons {
+    width: 192px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px #dfdad6;
+    box-sizing: border-box;
+    z-index: 1;
+    border: 1px solid #dfdad6;
+    margin-top: -55px;
+    margin-left: 1107px;
+}
+.icons input {
+    width: 90px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: monospace;
+    padding: 0px 10px;
+    color: #1F1F1F;
+}
+.icons input::placeholder {
+    color: #1D1D1D;
+    font-weight: 200;
+    font-size: 0 7rem;
+
+}
+.container {
+    width: 100%;
+    height: 100vh;
+}
+.main {
+    width: 33.333%;
+    position: relative;
+    top: 102px;
+    left: 97px;
+}
+.main h1 {
+    color: #ee5253;
+    font-size: 43px;
+    font-weight: bolder;
+    text-align: center;
+}
+.main p {
+    color: #5f27cd;
+    font-size: 20px;
+    text-align: center;
+}
+.imge {
+    width: 36.666%;
+    position: relative;
+    top: -266px;
+    left: 531px;
+    bottom: 64px;
+}
+.btn {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f368e0;
+    margin-left: 163px;
+}
+.icon-area {
+    position: fixed;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    background-color: #FFFF;
+    box-shadow: 2px 2px 3px burlywood;
+}
+.icon-area a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+}
+.icon-area a i {
+    color: #636e72 ;
+}
+.icon-area a:hover .fa-facebook{
+    color: blue;
+}
+.icon-area a:hover .fa-twitter{
+    color: skyblue;
+
+}
+.icon-area a:hover .fa-instagram{
+    color: pink;
+
+}
+.icon-area a:hover .fa-youtube{
+    color: red;
+
+}
+.productSection {
+    width: 85%;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 3px rgba(52, 73, 94,1.0);
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: -60px;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px;
+
+
+}
+.productSection h3 {
+    font-size: 33px;
+    font-weight: bold;
+    color: magenta;
+    font-family: cursive;
+}
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    width: 100%;
+}
+.productBox {
+    width: 250px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 30px;
+}
+.productBox img {
+    height: 180px;
+    width: 245px;
+}
+.productBox p {
+    color: rgba(189, 195, 199,1.0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    letter-spacing: 0.5;
+
+}
+.productBox a {
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+}
+.buyBtn {
+    position: absolute;
+    left: 42%;
+    bottom: -25px;
+    width: 140px;
+    height: 25px;
+    border: 1px solid rgba(236, 240, 241,1.0);
+    border-radius: 30px;
+    display: flex;
+    animation: fade 0.25s;
+    background: rgba(155, 89, 182,1.0);
+    text-decoration: none;
+    color: white;
+    display: block;
+    transform: translateX(-50%);
+}
+.productBox:hover .buyBtn {
+    display: flex;
+}
+.productBox:hover {
+    box-shadow: 2px 2px 30px blue;
+    background-color: #fff;
+}
+.aboutSection {
+    width: 85%;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 3px rgba(52, 73, 94,1.0);
+    display: flex;
+    margin: 30px auto;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: -60px;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px;
+    margin-bottom: 150px !important;
+}
+.aboutImg {
+    width: 640px;
+}
+.aboutSection h1 {
+    font-size: 51px;
+    text-align: left;
+    padding: 17px;
+    margin: 27px auto;
+    color: darkmagenta;
+}
+.aboutSection h4 {
+    font-size: 20px;
+    color: rgba(149, 165, 166,1.0);
+    padding: -4px;
+}
+h4 span {
+    color: black;
+    font-weight: bolder;
+    font-family: ui-monospace;
+}
+.notification {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}# pet-hero-section
